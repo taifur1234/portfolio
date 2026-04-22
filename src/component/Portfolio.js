@@ -185,7 +185,7 @@ export default function App() {
           <div className="about-grid animate-on-scroll">
             <div className="about-avatar">
               <div className="avatar-ring">
-                <div className="avatar-initials"><img src="/public/profile.jpg" alt="profile"/></div>
+                <div className="avatar-initials"><img src="/profile.jpg" alt="profile"/></div>
               </div>
               <div className="avatar-glow"></div>
             </div>
