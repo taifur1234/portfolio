@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import "./Portfolio.css";
+import photo from "./profile.jpg"
 
 const DATA = {
   name: "Taifur Ahmad",
@@ -185,7 +186,7 @@ export default function App() {
           <div className="about-grid animate-on-scroll">
             <div className="about-avatar">
               <div className="avatar-ring">
-                <div className="avatar-initials"><img src="/profile.jpg" alt="profile"/></div>
+                <div className="avatar-initials"><img src={photo} alt="profile"/></div>
               </div>
               <div className="avatar-glow"></div>
             </div>
