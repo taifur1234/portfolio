@@ -15,7 +15,7 @@ const DATA = {
     {
       company: "Digital Savers",
       role: "Junior Website Developer (Intern)",
-      duration: "6 Months",
+      duration: "1 Year+",
       achievements: [
         "Built and maintained responsive web interfaces using HTML, CSS, and JavaScript.",
         "Assisted in developing React-based frontend components for client projects.",
@@ -33,7 +33,7 @@ const DATA = {
   skills: [
     "MongoDB", "Express.js", "React", "Node.js",
     "JavaScript", "HTML5", "CSS3", "REST APIs",
-    "Git & GitHub", "Responsive Design", "Tailwind CSS", "VS Code",
+    "Git & GitHub", "Responsive Design", "Tailwind CSS",
   ],
   projects: [
     {
@@ -194,8 +194,8 @@ export default function App() {
               <p className="about-para">{DATA.about}</p>
               <div className="about-stats">
                 <StatCard number="1+" label="Years Experience" />
-                <StatCard number="4+" label="Projects Built" />
-                <StatCard number="10+" label="Skills Mastered" />
+                <StatCard number="6+" label="Projects Built" />
+                <StatCard number="5+" label="Skills Mastered" />
               </div>
             </div>
           </div>
